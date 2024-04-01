@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  width:100vw;
 }
 
 .App-logo {
@@ -35,4 +37,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bgVideo{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.logosvgs{
+  width: 120px;
+  height: 90px;
+}
+.navButton{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color:white !important;
+  border:1px rgba(0, 0, 0, 0.1) solid !important
+}
+.navButton:hover .navButton:focus{
+  background-color: black !important;
+  color:white !important;
+  border:1px rgba(0, 0, 0, 0.1) solid !important
+}
+.homeBanner{
+  position:relative;
+  width:100vw;
+  height:100vh;
+}
+.sections{
+  padding: 30px 0px 30px 0px;
+  width:100vw;
+}
+.contentsection{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.imgclass{
+  width:100%
 }
